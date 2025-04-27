@@ -1,0 +1,25 @@
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T17:38:55.700Z"}
+{"errorLabelSet":{},"level":"error","message":"MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":45224011,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (F:\\repos\\BE_AKRAM\\node_modules\\mongoose\\lib\\connection.js:1165:11)\n    at NativeConnection.openUri (F:\\repos\\BE_AKRAM\\node_modules\\mongoose\\lib\\connection.js:1096:11)\n    at connectDB (F:\\repos\\BE_AKRAM\\src\\config\\db.ts:7:5)","timestamp":"2025-04-27T17:39:25.696Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T17:46:19.586Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-27T17:46:22.405Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T17:48:04.828Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-27T17:48:07.763Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T17:48:08.430Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T17:48:10.262Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T17:48:11.290Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-27T17:48:12.956Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T18:05:50.144Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-27T18:05:52.789Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T18:07:03.978Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T18:07:06.805Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-27T18:07:08.536Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T18:07:29.576Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-27T18:07:31.377Z"}
+{"level":"info","message":"Daily discount email job scheduled for 12:00 PM","timestamp":"2025-04-27T18:32:58.219Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T18:32:58.236Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-27T18:33:00.226Z"}
+{"level":"info","message":"Daily discount email job scheduled for 12:00 PM","timestamp":"2025-04-27T18:33:13.837Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T18:33:13.855Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-27T18:33:15.548Z"}
+{"level":"info","message":"Daily discount email job scheduled for 12:00 PM","timestamp":"2025-04-27T18:33:16.787Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-04-27T18:33:16.804Z"}
