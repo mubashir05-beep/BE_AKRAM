@@ -18,13 +18,13 @@ export const createOrder = async (req: Request, res: Response): Promise<void> =>
     }, 0);
 
     // Ensure the provided total matches calculated total
-    if (Math.abs(calculatedTotal - totalAmount) > 0.01) {
-      res.status(400).json({ 
-        success: false, 
-        message: 'Total amount does not match sum of items' 
-      });
-      return;
-    }
+    // if (Math.abs(calculatedTotal - totalAmount) > 0.01) {
+    //   res.status(400).json({ 
+    //     success: false, 
+    //     message: 'Total amount does not match sum of items' 
+    //   });
+    //   return;
+    // }
 
     const order = await orderService.createOrder({
       customerEmail,

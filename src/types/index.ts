@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, { Decimal128 } from "mongoose";
 
 export interface ISubscriber {
     email: string;
@@ -57,4 +57,7 @@ export interface ISubscriber {
     paymentStatus: 'pending' | 'paid' | 'failed' | 'refunded';
     orderedAt: Date;
     updatedAt: Date;
+    shippingCost: Decimal128;
+    subtotal: Decimal128;
+    tax: Decimal128;
   }
